@@ -8,9 +8,9 @@ services:
     ports:
       - "80:80"
     depends_on:
-      - app
+      - shiny
 
-  app:
+  shiny:
     build:
       context: shiny
 #    container_name: shiny_app
